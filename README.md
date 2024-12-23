@@ -4,7 +4,8 @@
  <div>
  <h2>📸 Project Demo</h2>
  <p>Preview the interactive features and seamless functionality of Rehber Clone.</p>
-
+  
+![ScreenRecording2024-12-23at230237_compressed-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/e93c6683-db45-456c-97ad-3e3a377e6c9e)
 
 
 <h2>🛠️ Technologies Used</h2>
