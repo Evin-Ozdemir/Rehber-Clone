@@ -1,0 +1,156 @@
+{
+  "contact": [
+    {
+      "name": "Emre Kaya",
+      "position": "Software Engineer",
+      "company": "InnovateTech",
+      "phone": "+90 555 789 01 23",
+      "email": "emrekoc@gmail.com",
+      "id": "stu901"
+    },
+    {
+      "name": "Cemre Yıldız",
+      "position": "fgfgg",
+      "company": "GameWorks",
+      "phone": "+90 555 012 34 56",
+      "email": "cemreyildiz@gmail.com",
+      "id": "opl890"
+    },
+    {
+      "name": "Burcu Öztürk",
+      "position": "Quality Assurance Engineer",
+      "company": "Testif",
+      "phone": "+90 555 234 56 78",
+      "email": "burcuozturk@gmail.com",
+      "id": "efg456"
+    },
+    {
+      "name": "Leyla Uslu",
+      "position": "Cybersecurity Specialist",
+      "company": "SecureNet",
+      "phone": "+90 555 456 78 90",
+      "email": "leylauslu@gmail.com",
+      "id": "klm012"
+    },
+    {
+      "name": "Melis Yıldırım",
+      "position": "Business Analyst",
+      "company": "AnalyzePro",
+      "phone": "+90 555 678 90 12",
+      "email": "melisyildirim@gmail.com",
+      "id": "qtu678"
+    },
+    {
+      "name": "Selin Özkan",
+      "position": "Frontend Developer",
+      "company": "CreativeCoders",
+      "phone": "+90 555 890 12 34",
+      "email": "selinozkan@gmail.com",
+      "id": "xyz234"
+    },
+    {
+      "name": "Eren Arslan",
+      "position": "Software Architect",
+      "company": "CodeBuilders",
+      "phone": "+90 555 901 23 45",
+      "email": "erenarslan@gmail.com",
+      "id": "abc567"
+    },
+    {
+      "name": "Sinem Çetin",
+      "position": "AI Researcher",
+      "company": "DeepMinders",
+      "phone": "+90 555 012 34 56",
+      "email": "sinemcetin@gmail.com",
+      "id": "def890"
+    },
+    {
+      "id": "502b",
+      "name": "Evin Özdemir",
+      "position": "Fulstack Developer",
+      "company": "Emaartech",
+      "phone": "887738389932",
+      "email": "evin@gmail.com"
+    },
+    {
+      "id": "83d0",
+      "name": "Özcan Kurt",
+      "position": "UX/UI",
+      "company": "Didiyo",
+      "phone": "4564565656",
+      "email": "ozcan@gmail.com"
+    },
+    {
+      "name": "Ayşe Yılmaz",
+      "position": "Backend Developer",
+      "company": "TechCorp",
+      "phone": "+90 555 765 43 21",
+      "email": "ayseyilmaz@gmail.com",
+      "id": "qrs124"
+    },
+    {
+      "name": "Mehmet Demir",
+      "position": "UI/UX Designer",
+      "company": "DesignWorks",
+      "phone": "+90 555 234 56 78",
+      "email": "mehmetdemir@gmail.com",
+      "id": "qrs125"
+    },
+    {
+      "name": "Elif Koca",
+      "position": "Project Manager",
+      "company": "CreativeSolutions",
+      "phone": "+90 555 345 67 89",
+      "email": "elifkoca@gmail.com",
+      "id": "qrs126"
+    },
+    {
+      "name": "Ali Vural",
+      "position": "Full Stack Developer",
+      "company": "DevHub",
+      "phone": "+90 555 456 78 90",
+      "email": "alivural@gmail.com",
+      "id": "qrs127"
+    },
+    {
+      "name": "Zeynep Öztürk",
+      "position": "Data Analyst",
+      "company": "DataWorks",
+      "phone": "+90 555 567 89 01",
+      "email": "zeynepoz@gmail.com",
+      "id": "qrs128"
+    },
+    {
+      "name": "Burak Kaya",
+      "position": "DevOps Engineer",
+      "company": "Cloudify",
+      "phone": "+90 555 678 90 12",
+      "email": "burakkaya@gmail.com",
+      "id": "qrs129"
+    },
+    {
+      "name": "Seda Çelik",
+      "position": "Software Engineer",
+      "company": "TechLabs",
+      "phone": "+90 555 789 01 23",
+      "email": "sedacelik@gmail.com",
+      "id": "qrs130"
+    },
+    {
+      "name": "Murat Yıldız",
+      "position": "System Administrator",
+      "company": "NetworkSolutions",
+      "phone": "+90 555 890 12 34",
+      "email": "muratyildiz@gmail.com",
+      "id": "qrs131"
+    },
+    {
+      "id": "e8df",
+      "name": "fg",
+      "position": "fdfd",
+      "company": "",
+      "phone": "",
+      "email": ""
+    }
+  ]
+}
