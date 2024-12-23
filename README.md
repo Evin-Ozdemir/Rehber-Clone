@@ -1,3 +1,5 @@
+
+https://github.com/user-attachments/assets/0a0685ae-b68b-4cea-8ce8-c9c5678ccd93
 <div><h1> 📞 Rehber Clone </h1></div>
 <h4>Contacts Clone is a fully functional contact management application that allows users to manage their contact information and allows data to be retrieved and updated using db.json as the mock backend. The app's rapid development workflow is powered by Vite and uses Axios to interact with the mock backend.</h4>
 <h4>Star ⭐ the repo if you like what you see 😉 </h4>
@@ -5,7 +7,7 @@
  <h2>📸 Project Demo</h2>
  <p>Preview the interactive features and seamless functionality of Rehber Clone.</p>
   
-![ScreenRecording2024-12-23at230237_compressed-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/e93c6683-db45-456c-97ad-3e3a377e6c9e)
+  Uploading ScreenRecording2024-12-23at230237_compressed-ezgif.com-video-to-gif-converter.mp4…
 
 
 <h2>🛠️ Technologies Used</h2>
