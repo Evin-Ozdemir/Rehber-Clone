@@ -17,10 +17,14 @@ function App() {
   const [contacts, setContacts] = useState([]);
   const [isModelOpen, setIsModelOpen] = useState(false);
   const [editItem, setEditItem] = useState(null);
+  const [notFound, setNotFound] = useState(false); // Yeni state
 
   // ! Sayfa yüklendiğinde api'dan verileri al
   useEffect(() => {
-    axios.get("/contact").then((res) => setContacts(res.data));
+    axios.get("/contact").then((res) => {
+      setContacts(res.data);
+      setNotFound(false); // Her yüklemede "bulunamadı" mesajını sıfırla
+    });
   }, []);
 
   // ! Form gönderildiğinde çalışacak fonksiyon
@@ -36,11 +40,13 @@ function App() {
     };
 
     // İnputtan alına değer neticesinde ilgili veriyi api'dan al
-    axios.get("/contact", { params }).then((res) => setContacts(res.data));
+    axios.get("/contact", { params }).then((res) => {
+      setContacts(res.data);
+      setNotFound(res.data.length === 0); // Eğer veri boşsa "bulunamadı" mesajını göster
+    });
   };
 
   // ! Sil butonuna tıklanınca ilgili kişiyi silen fonksiyon
-
   const handleDelete = (id) => {
     const res = confirm("Kişiyi silmek istediğinizden eminmisiniz ?");
 
@@ -61,7 +67,6 @@ function App() {
   };
 
   // ! Güncelle ikonuna tıklayınca ilgili kişi verisinini güncelleyecek fonksiyon
-
   const handleEdit = (contact) => {
     //  Modal'ı Aç
     setIsModelOpen(true);
@@ -96,14 +101,20 @@ function App() {
         </div>
       </header>
       <main>
-        {contacts.map((contact) => (
-          <Card
-            key={contact.id}
-            contact={contact}
-            handleDelete={handleDelete}
-            handleEdit={handleEdit}
-          />
-        ))}
+        {notFound ? ( // Eğer kişi bulunamadıysa mesaj göster
+          <div className="not-found">
+            <p>Aradığınız kişi bulunamadı.</p>
+          </div>
+        ) : (
+          contacts.map((contact) => (
+            <Card
+              key={contact.id}
+              contact={contact}
+              handleDelete={handleDelete}
+              handleEdit={handleEdit}
+            />
+          ))
+        )}
       </main>
       <Modal
         isModelOpen={isModelOpen}

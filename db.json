@@ -10,7 +10,7 @@
     },
     {
       "name": "Cemre Yıldız",
-      "position": "fgfgg",
+      "position": "Game Developer",
       "company": "GameWorks",
       "phone": "+90 555 012 34 56",
       "email": "cemreyildiz@gmail.com",
@@ -25,7 +25,7 @@
       "id": "efg456"
     },
     {
-      "name": "Leyla Uslu",
+      "name": "Leyla Us",
       "position": "Cybersecurity Specialist",
       "company": "SecureNet",
       "phone": "+90 555 456 78 90",
@@ -34,7 +34,7 @@
     },
     {
       "name": "Melis Yıldırım",
-      "position": "Business Analyst",
+      "position": "Busines Analyst",
       "company": "AnalyzePro",
       "phone": "+90 555 678 90 12",
       "email": "melisyildirim@gmail.com",
@@ -73,15 +73,15 @@
       "email": "evin@gmail.com"
     },
     {
-      "id": "83d0",
-      "name": "Özcan Kurt",
+      "name": "Özkan Kurt",
       "position": "UX/UI",
       "company": "Didiyo",
       "phone": "4564565656",
-      "email": "ozcan@gmail.com"
+      "email": "ozcan@gmail.com",
+      "id": "83d0"
     },
     {
-      "name": "Ayşe Yılmaz",
+      "name": "Ayşe Yılma",
       "position": "Backend Developer",
       "company": "TechCorp",
       "phone": "+90 555 765 43 21",
@@ -127,30 +127,6 @@
       "phone": "+90 555 678 90 12",
       "email": "burakkaya@gmail.com",
       "id": "qrs129"
-    },
-    {
-      "name": "Seda Çelik",
-      "position": "Software Engineer",
-      "company": "TechLabs",
-      "phone": "+90 555 789 01 23",
-      "email": "sedacelik@gmail.com",
-      "id": "qrs130"
-    },
-    {
-      "name": "Murat Yıldız",
-      "position": "System Administrator",
-      "company": "NetworkSolutions",
-      "phone": "+90 555 890 12 34",
-      "email": "muratyildiz@gmail.com",
-      "id": "qrs131"
-    },
-    {
-      "id": "e8df",
-      "name": "fg",
-      "position": "fdfd",
-      "company": "",
-      "phone": "",
-      "email": ""
     }
   ]
 }

@@ -18,7 +18,7 @@ const Card = ({ contact, handleDelete, handleEdit }) => {
       </div>
 
       <h1>
-        {name[0]} {surname[0]}
+        {name[0]} {surname ? surname[0] : ""}
       </h1>
       <h3>{contact.name}</h3>
       <p>{contact.position}</p>

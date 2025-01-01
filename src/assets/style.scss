@@ -81,7 +81,15 @@ main {
   gap: 10px;
   padding: 10px;
 }
-
+.not-found {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 1.5rem;
+  color: #555;
+  text-align: center;
+}
 .card {
   box-shadow: $shadow-2;
   background-color: white;
