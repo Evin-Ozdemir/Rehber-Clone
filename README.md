@@ -1,4 +1,4 @@
-<div><h1> 📞 Rehber Clone </h1></div>
+<div><h1> 📞 Contacts Clone </h1></div>
 <h4>The Rehber Clone is a fully functional contact management application that allows users to manage, search, and view contact details, with data being fetched and updated using db.json as a mock backend. The app's fast development workflow is powered by Vite, and it uses Axios to interact with the mock backend.</h4>
 <h4>Star ⭐ the repo if you like what you see 😉 </h4>
  <div>
